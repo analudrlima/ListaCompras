@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de localStorage</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Lista de Produtos</h1>
+        <div class="product-input">
+            <input type="text" id="productInput" class="form-control mb-2" placeholder="Nome do produto">
+            <input type="number" id="quantityInput" class="form-control mb-2" placeholder="Quantidade" min="1" value="1">
+            <input type="url" id="imageInput" class="form-control mb-2" placeholder="URL da imagem do produto">
+            <button id="addButton" class="btn btn-primary">Adicionar</button>
+            <button id="clearButton" class="btn btn-danger ml-2">Limpar Lista</button>
+        </div>
+        
+        <h2>Produtos:</h2>
+        <ul id="productList" class="list-group"></ul>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
